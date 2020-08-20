@@ -23,12 +23,32 @@ function rNum(userInput){
 
 let arrayStringInput = userInput.toString().split("");
 if (userInput === "" || userInput <=0 || userInput >= 4000) {
-  // alert("Please enter a number between 1 - 3999.")
-return("Please enter a number between 1 - 3999.")
+alert("Please enter a number between 1 - 3999.")
 
 } else {
-  return("Ok range!");
+  return("Add the rest of the tests!");
 }
 }
 
 // User Interface
+
+
+
+// Console Log Test Example:
+    // function rNum(userInput){
+    //   const rMatrix = {I:1, IV:4, V:5, IX:9, X:10, XL:40, L:50, XC:90, C:100, CD:400, D:500, CM:900, M:1000}
+
+    // let arrayStringInput = userInput.toString().split("");
+    // if (userInput === "" || userInput <=0 || userInput >= 4000) {
+    //   // alert("Please enter a number between 1 - 3999.")
+    // return("Please enter a number between 1 - 3999.")
+
+    // } else {
+    //   return("Ok range!");
+    // }
+    // }
+    // undefined
+    // rNum(3)
+    // "Ok range!"
+    // rNum(5000)
+    // "Please enter a number between 1 - 3999."
